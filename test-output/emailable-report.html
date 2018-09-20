@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">8</td><td class="num">299</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ResReQ.DeleteREQRES</td><td><a href="#m0">PostTestStatusCode</a></td><td rowspan="1">1535706210374</td><td rowspan="1">3</td></tr><tr class="failedodd"><td rowspan="2">ResReQ.PostRESREQ</td><td><a href="#m1">PostTestBody</a></td><td rowspan="1">1535706210393</td><td rowspan="1">4</td></tr><tr class="failedodd"><td><a href="#m2">PostTestStatusCode</a></td><td rowspan="1">1535706210380</td><td rowspan="1">1</td></tr><tr class="failedeven"><td rowspan="1">ResReQ.PutREQRES</td><td><a href="#m3">putStatusCode</a></td><td rowspan="1">1535706210368</td><td rowspan="1">2</td></tr><tr class="failedodd"><td rowspan="1">ResReQ.getNegative</td><td><a href="#m4">getAllFirstName</a></td><td rowspan="1">1535706210354</td><td rowspan="1">2</td></tr><tr class="failedeven"><td rowspan="3">ResReQ.getTest</td><td><a href="#m5">getAllFirstName</a></td><td rowspan="1">1535706210136</td><td rowspan="1">214</td></tr><tr class="failedeven"><td><a href="#m6">getTest1</a></td><td rowspan="1">1535706210384</td><td rowspan="1">1</td></tr><tr class="failedeven"><td><a href="#m7">getTestDetails</a></td><td rowspan="1">1535706210388</td><td rowspan="1">2</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">ResReQ.DeleteREQRES#PostTestStatusCode</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at ResReQ.DeleteREQRES.PostTestStatusCode(DeleteREQRES.java:13)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">ResReQ.PostRESREQ#PostTestBody</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at ResReQ.PostRESREQ.PostTestBody(PostRESREQ.java:28)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">ResReQ.PostRESREQ#PostTestStatusCode</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at ResReQ.PostRESREQ.PostTestStatusCode(PostRESREQ.java:17)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">ResReQ.PutREQRES#putStatusCode</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at ResReQ.PutREQRES.putStatusCode(PutREQRES.java:10)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">ResReQ.getNegative#getAllFirstName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at ResReQ.getNegative.getAllFirstName(getNegative.java:16)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">ResReQ.getTest#getAllFirstName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ExceptionInInitializerError
+	at org.codehaus.groovy.runtime.InvokerHelper.&lt;clinit&gt;(InvokerHelper.java:66)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.createMap(ScriptBytecodeAdapter.java:623)
+	at io.restassured.internal.ResponseParserRegistrar.&lt;init&gt;(ResponseParserRegistrar.groovy)
+	at io.restassured.RestAssured.&lt;clinit&gt;(RestAssured.java:346)
+	at ResReQ.getTest.getAllFirstName(getTest.java:44)
+Caused by: groovy.lang.GroovyRuntimeException: Conflicting module versions. Module [groovy-xml is loaded in version 2.4.12 and you are trying to load version 2.4.4
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl$DefaultModuleListener.onModule(MetaClassRegistryImpl.java:513)
+	at org.codehaus.groovy.runtime.m12n.ExtensionModuleScanner.scanExtensionModuleFromProperties(ExtensionModuleScanner.java:80)
+	at org.codehaus.groovy.runtime.m12n.ExtensionModuleScanner.scanExtensionModuleFromMetaInf(ExtensionModuleScanner.java:74)
+	at org.codehaus.groovy.runtime.m12n.ExtensionModuleScanner.scanClasspathModules(ExtensionModuleScanner.java:56)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.&lt;init&gt;(MetaClassRegistryImpl.java:113)
+	at org.codehaus.groovy.runtime.metaclass.MetaClassRegistryImpl.&lt;init&gt;(MetaClassRegistryImpl.java:74)
+	at groovy.lang.GroovySystem.&lt;clinit&gt;(GroovySystem.java:36)
+	... 30 more
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">ResReQ.getTest#getTest1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at ResReQ.getTest.getTest1(getTest.java:17)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">ResReQ.getTest#getTestDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NoClassDefFoundError: Could not initialize class io.restassured.RestAssured
+	at ResReQ.getTest.getTestDetails(getTest.java:28)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

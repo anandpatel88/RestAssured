@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="ResReQ.getTest"/>
+      <class name="ResReQ.DeleteREQRES"/>
+      <class name="ResReQ.getNegative"/>
+      <class name="ResReQ.PostRESREQ"/>
+      <class name="ResReQ.PutREQRES"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
